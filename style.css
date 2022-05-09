@@ -1,0 +1,96 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+h1{
+    text-align: center;
+    color: rgba(0,130,209,1);
+}
+
+p {
+    padding-top: 40px;
+    text-align: center;
+    color: #000000;
+}
+
+.virtual_keyboard{
+    width: 700px;
+    margin: 0 auto;
+    padding-top: 10px;
+    border: 3px solid rgba(0,130,209,1);
+    border-radius: 5px;
+    background: rgba(255,209,0,1);
+}
+.virtual_keyboard .row{
+    width: 100%;
+    height: 40px;
+    margin-bottom: 10px;
+}
+.virtual_key{
+    width: 40px;
+    height: 40px;
+    float: left;
+    cursor: pointer;
+    color: rgba(0,130,209,1);
+    margin-left: 6px;
+    text-align: center;
+    line-height: 40px;
+    background: rgb(255,255,255);
+    border-radius: 5px;
+}
+.virtual_keyboard .virtual_key:hover{
+    background: rgb(242, 198, 1);
+    color: rgb(0, 0, 0);
+}
+.virtual_keyboard .virtual_key:active {
+    transform: scale(.9)
+}
+
+.virtual_keyboard .shiftL,.virtual_keyboard .capslock, .virtual_keyboard .enter {
+    width: 89px;
+}
+.virtual_keyboard .backspace {
+    width: 92px;
+}
+.virtual_keyboard .capslock,.virtual_keyboard .shiftL, .virtual_keyboard .shiftR, .virtual_keyboard .tab, .virtual_keyboard .backspace, .virtual_keyboard .del,
+.virtual_keyboard .enter, .virtual_keyboard .ctrlL, .virtual_keyboard .altL, .virtual_keyboard .ctrlR, .virtual_keyboard .altR, .virtual_keyboard .win {
+font-weight: bold;
+}
+.virtual_keyboard .shiftR {
+    width: 43px;
+}
+.virtual_keyboard .tab{
+    width: 92px;
+}
+.virtual_keyboard .space{
+    width: 322px;
+    margin-left: 6px;
+}
+.virtual_keyboard sup{
+    margin: -10px 0 0 -20px;
+    font-size: 12px;
+    position: absolute;
+    
+}
+#spacefortext{
+    width: 680px;
+    height: 100px;
+    margin: 20px auto;
+    display: block;
+    padding: 10px;
+    font-size: 18px;
+    color: rgb(255,255,255);
+    border: 2px solid rgba(0,130,209,1);
+    border-radius: 5px;
+    background: rgba(0,130,209,1);
+}
+
+.hidden {
+    display: none;
+}
+.action_now {
+    background: rgba(0,130,209,1);
+    color: rgb(0, 0, 0);
+    transform: scale(.9);
+}
